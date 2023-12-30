@@ -611,14 +611,14 @@ button:hover {
 .social_btn {
   background-color: var(--dBackColor2);
   border-radius: 12px;
-  border: 1.5px solid #eedcdc;
+  border: 2px solid #eedcdc;
   color: var(--primaryColor);
   margin-right: 20px;
 }
 .social_btn:hover {
   background-color: var(--btnColor);
-  border: 1.5px solid #eedcdc;
   color: white;
+  border: 2px solid var(--btnColor);
 }
 .social_btn i {
   font-size: 28px;

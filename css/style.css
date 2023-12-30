@@ -256,3 +256,59 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
+/* fruit and vegetable style */
+.fruit_and_vegetable {
+  padding: 80px 180px;
+  background-color: var(--dBackColor2);
+}
+.vegetable_title {
+  color: var(--btnColor);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.vegetable_heading {
+  color: #2e2e2e;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-top: 10px;
+}
+.vegetable_policy {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+}
+.box {
+  background-color: var(--dBackColor1);
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.05);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.box:hover {
+  transform: scale(1.1);
+}
+.box h3 {
+  color: var(--primaryColor);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.22px;
+  margin: 15px 0px;
+}
+.box p {
+  color: var(--secondaryColor);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.box .box_img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

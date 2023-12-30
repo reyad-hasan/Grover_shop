@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Grove Shop</title>
     <!-- favicon link -->
     <link
       rel="shortcut icon"
@@ -29,6 +29,78 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Grove shop</h1>
+    <!-- header and navbar section -->
+    <header class="header">
+      <!-- navbar section -->
+      <nav class="navbar">
+        <div class="nav_left">
+          <a href="#"><img src="./asset/img/logo.png" alt="Grove" /></a>
+        </div>
+        <div class="nav_middle">
+          <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Shop</a></li>
+          </ul>
+        </div>
+        <div class="nav_right">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="search" placeholder="Search" />
+          <i class="fa-solid fa-basket-shopping"></i>
+        </div>
+      </nav>
+      <!-- banner section -->
+      <section class="banner_section">
+        <!-- left section banner -->
+        <div class="left_section">
+          <div class="more_than">
+            <p>More than Faster</p>
+            <img src="./asset/img/stw.png" alt="" />
+          </div>
+          <h1 class="heading_title">
+            Groceries <br />
+            delivered in as <br />
+            little as <span class="span">2 hours</span>
+          </h1>
+          <p class="left_banner_description">
+            Grocen atssures fresh grocery every morning to your <br />
+            family without getting out in this pandemic.
+          </p>
+          <!-- order button -->
+          <div class="order_box">
+            <button>Order Now</button>
+            <img src="./asset/img/button-play.png" alt="" />
+            <p>Order Process</p>
+          </div>
+        </div>
+        <!-- right section banner -->
+        <div class="right_section">
+          <div class="right_section_main_box">
+            <div class="bg_box"></div>
+            <img class="banner_img" src="./asset/img/header_img.png" alt="" />
+            <div class="free_shipping_box">
+              <div class="center">
+                <img src="./asset/img/orange.png" alt="" />
+              </div>
+              <h3 class="center">Fresh Orange</h3>
+              <h2 class="center">$44.60</h2>
+              <p class="center">Free Shipping</p>
+              <div class="delivery_box">
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+            </div>
+            <div class="delivery_time_box">
+              <img
+                src="./asset/img/alarm-clock-icon.png"
+                width="40px"
+                height="40px"
+              />
+              <h3>Delivery<br /><span>30 Min</span></h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
   </body>
 </html>

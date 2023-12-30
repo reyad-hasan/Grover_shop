@@ -250,7 +250,7 @@ button:hover {
   align-items: center;
   position: absolute;
   top: 15%;
-  right: -10%;
+  right: 5%;
   transition: 0.5s;
   cursor: pointer;
   z-index: 3;
@@ -637,7 +637,7 @@ button:hover {
 }
 .footer_description {
   color: #676767;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 18px;
 }
@@ -657,13 +657,14 @@ button:hover {
 .footer_box ul li a {
   list-style: none;
   color: #676767;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   text-decoration: none;
   transition: 0.5s;
 }
 .footer_box ul li a:hover {
   color: var(--btnColor);
+  text-decoration: underline;
 }
 .divide {
   height: 1.4px;

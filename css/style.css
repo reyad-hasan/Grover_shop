@@ -312,3 +312,106 @@ body {
   display: flex;
   justify-content: center;
 }
+/* find favorites and discover style */
+.favorites_and_discover {
+  padding: 160px 180px;
+  border: 1px solid rebeccapurple;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.left_contend {
+  width: 60%;
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right_contend {
+  width: 40%;
+  border: 1px solid red;
+}
+/* left contend */
+.border_wrap {
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #fef5f5;
+}
+.round_box {
+  position: absolute;
+  bottom: 2%;
+  right: 2.5%;
+}
+.red_strawberry {
+  width: 220px;
+  height: 320px;
+  box-shadow: 0px 30px 50px -15px rgba(201, 29, 52, 0.2);
+  position: absolute;
+  background-color: white;
+  border-radius: 8px;
+  top: 20%;
+  right: -27%;
+  text-align: center;
+  padding: 10px 0px;
+}
+.str_heading {
+  color: var(--primaryColor);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  padding-top: 25px;
+  padding-bottom: 3px;
+}
+.str_name {
+  color: #a5a4a4;
+  font-size: 14px;
+}
+.str_img {
+  margin: 20px 0px;
+}
+.str_ratting {
+  text-align: left;
+  padding-left: 15px;
+}
+.str_ratting i {
+  color: #fdc55e;
+  margin-right: 8px;
+  font-size: 18px;
+}
+.str_ratting span {
+  font-size: 18px;
+  color: var(--primaryColor);
+  font-weight: 500;
+}
+.str_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+.str_price .price {
+  color: var(--primaryColor);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 20px; /* 90.909% */
+}
+.str_plus {
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: var(--btnColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 22px;
+  border: 1px solid var(--btnColor);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.str_plus:hover {
+  background-color: var(--dBackColor1);
+  color: var(--btnColor);
+}

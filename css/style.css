@@ -127,7 +127,7 @@ body {
   align-items: center;
   margin-top: 60px;
 }
-.order_box button {
+button {
   background-color: var(--btnColor);
   color: var(--dBackColor1);
   border: none;
@@ -139,7 +139,7 @@ body {
   border: 1.5px solid #f86061;
   transition: 0.5s;
 }
-.order_box button:hover {
+button:hover {
   background-color: var(--dBackColor1);
   color: #f86061;
 }
@@ -315,21 +315,20 @@ body {
 /* find favorites and discover style */
 .favorites_and_discover {
   padding: 160px 180px;
-  border: 1px solid rebeccapurple;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 200px;
 }
 .left_contend {
   width: 60%;
-  border: 1px solid green;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .right_contend {
   width: 40%;
-  border: 1px solid red;
+  display: flex;
+  align-items: center;
 }
 /* left contend */
 .border_wrap {
@@ -355,6 +354,11 @@ body {
   right: -27%;
   text-align: center;
   padding: 10px 0px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.red_strawberry:hover {
+  transform: scale(1.1);
 }
 .str_heading {
   color: var(--primaryColor);
@@ -414,4 +418,27 @@ body {
 .str_plus:hover {
   background-color: var(--dBackColor1);
   color: var(--btnColor);
+}
+/* right contend */
+.title_us {
+  color: #03a66b;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+  margin-bottom: 10px;
+}
+.title_favorites {
+  color: #2e2e2e;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+.title_description {
+  color: #676767;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 40px;
 }

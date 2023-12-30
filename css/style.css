@@ -158,6 +158,7 @@ button:hover {
   height: 100%;
   position: relative;
 }
+
 .bg_box {
   width: 400px;
   height: 250px;
@@ -185,6 +186,11 @@ button:hover {
   top: 25%;
   left: 3%;
   z-index: 3;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.free_shipping_box:hover {
+  transform: scale(1.1);
 }
 .center img {
   margin-top: 20px;
@@ -245,6 +251,11 @@ button:hover {
   position: absolute;
   top: 15%;
   right: 5%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.delivery_time_box:hover {
+  transform: scale(1.1);
 }
 .delivery_time_box h3 {
   color: var(--primaryColor);

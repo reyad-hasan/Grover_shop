@@ -453,3 +453,109 @@ button:hover {
   line-height: 25px;
   margin-bottom: 40px;
 }
+/* home delivery style */
+.home_delivery {
+  padding: 80px 180px;
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  height: 80vb;
+}
+.home_left_contend {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.home_right_contend {
+  width: 60%;
+}
+.home_left_title {
+  color: #f9ba45;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+  margin-bottom: 15px;
+}
+.home_left_heading {
+  color: #2e2e2e;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.home_left_description {
+  color: #676767;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+.home_left_btn {
+  background-color: white;
+  color: var(--btnColor);
+}
+.home_left_btn:hover {
+  background-color: var(--btnColor);
+  color: var(--dBackColor1);
+}
+/* right contend */
+.home_right_contend_main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.home_bg_box {
+  width: 400px;
+  height: 250px;
+  background-color: rgba(241, 180, 87, 0.932);
+  border-radius: 15px;
+  transform: skew(10deg);
+  position: absolute;
+  bottom: 0%;
+  left: 27%;
+  z-index: 1;
+}
+.home_img {
+  position: absolute;
+  bottom: 0%;
+  left: 32%;
+  z-index: 2;
+}
+.home_bike_box {
+  width: 182px;
+  height: 240px;
+  background-color: var(--dBackColor1);
+  box-shadow: 0px 50px 80px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  position: absolute;
+  top: 19%;
+  left: 67%;
+  z-index: 3;
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+}
+.home_bike_box:hover {
+  transform: scale(1.1);
+}
+.bike_img_bg {
+  width: 100%;
+  background-color: var(--dBackColor2);
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.home_bike_title {
+  color: var(--primaryColor);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+  padding-bottom: 5px;
+}
+.home_bike_description {
+  color: #676767;
+  font-size: 14px;
+  line-height: 18px;
+}
